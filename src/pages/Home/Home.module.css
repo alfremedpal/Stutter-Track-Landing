@@ -1,4 +1,52 @@
 .hero {
     height: calc(100vh - 75px);
-    color: #333
+    color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    /* background-color: red; */
+    text-align: left;
+    padding: 5%;
+}
+
+.title h1 {
+    color: #ff803b;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.35em;
+    margin: 0;
+}
+
+.title p {
+    font-weight: bold;
+    color: #555;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.spacer {
+    /* background-color: blue; */
+    flex-grow: 0.15;
+}
+
+.section {
+    height: 50vh;
+}
+
+@media(min-width: 1200px) {
+
+    .title h1 {
+        font-size: 2.5em;
+    }
+
+    .title p {
+        width: 50%;
+        font-size: 1em;
+    }
+
+    .spacer {
+        flex-grow: 0.4;
+    }
 }

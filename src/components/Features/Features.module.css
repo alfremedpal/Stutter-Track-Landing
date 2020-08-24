@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.feature {
+    /* background-color: red; */
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    transform: translate(10px, -10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%
+}
+
+.icon {
+    color: #ff803b;
+    font-size: 4em;
+}
+
+.title {
+    color: #ff803b;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.descp {
+    color: #555;
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1em;
+    /* background-color: blue; */
+}

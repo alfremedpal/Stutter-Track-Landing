@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Features from '../../components/Features/Features'
 import MailInput from '../../components/MailInput/MailInput'
 import classes from './Home.module.css'
 
@@ -19,6 +20,13 @@ export default function Home() {
                     </p>
                 </div>
                 <MailInput />
+            </div>
+            <div className={classes.section}>
+                <h2 className={classes.header}>Features</h2>
+                <Features />
+            </div>
+            <div className={[classes.dotSection, "pattern-cross-dots-lg"].join(' ')}>
+                Dot section
             </div>
             <div className={classes.section}>
                 Section

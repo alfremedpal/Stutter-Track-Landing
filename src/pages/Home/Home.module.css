@@ -19,6 +19,12 @@
     margin: 0;
 }
 
+.header {
+    color: #ff803b;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.35em;
+}
+
 .title p {
     font-weight: bold;
     color: #555;
@@ -31,13 +37,19 @@
     flex-grow: 0.15;
 }
 
-.section {
-    height: 50vh;
+.section, .dotSection {
+    min-height: 50vh;
+}
+
+.dotSection {
+    box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
 }
 
 @media(min-width: 1200px) {
 
-    .title h1 {
+    .title h1,
+    .header {
         font-size: 2.5em;
     }
 

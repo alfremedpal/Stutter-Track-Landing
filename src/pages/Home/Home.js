@@ -1,4 +1,6 @@
 import React from 'react'
+
+import MailInput from '../../components/MailInput/MailInput'
 import classes from './Home.module.css'
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
                         occur.
                     </p>
                 </div>
+                <MailInput />
             </div>
             <div className={classes.section}>
                 Section

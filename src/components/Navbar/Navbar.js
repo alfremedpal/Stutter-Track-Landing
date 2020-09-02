@@ -19,7 +19,7 @@ export default function Navbar() {
         <>
         <nav className={classes.main}>
             <div className={classes.title}>
-                ST
+                <a className={classes.link} href="/">ST</a>
             </div>
             <div className={classes.toggle} onClick={() => setMenuOpen(!menuOpen)}>
                 <FaBars/>
@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className={classes.menu}>
                 {
                     menuItems.map((item, i) => (
-                        <a key={i} href={item.link} >{item.name}</a>
+                        <a key={i} className={classes.link} href={item.link} >{item.name}</a>
                     ))
                 }
             </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
             {
                 menuItems.map((item, i) => (
                     <div>
-                        <a key={i} href={item.link} >{item.name}</a>
+                        <a key={i} className={classes.link} href={item.link} >{item.name}</a>
                     </div>
                 ))
             }

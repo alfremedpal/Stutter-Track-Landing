@@ -17,6 +17,10 @@
     font-size: 2.5em;
 }
 
+.main .title a {
+    color: #ff803b;
+}
+
 .main .toggle {
     font-size: 1.25em;
     color: #333;
@@ -54,7 +58,7 @@
     margin: 5%;
 }
 
-.mobileMenu.open > div a {
+.link {
     text-decoration: none;
     color: #333;
     text-align: left;

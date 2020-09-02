@@ -2,6 +2,7 @@ import React from 'react'
 
 import Features from '../../components/Features/Features'
 import MailInput from '../../components/MailInput/MailInput'
+import Button from '../../components/Button/Button'
 import classes from './Home.module.css'
 
 export default function Home() {
@@ -26,7 +27,18 @@ export default function Home() {
                 <Features />
             </div>
             <div className={[classes.dotSection, "pattern-cross-dots-lg"].join(' ')}>
-                Dot section
+            <div className={classes.title}>
+                <h1>Support us</h1>
+                <p>
+                    Stutter track is a small project maintained by a very small group of people. <br />
+                    Help us keep going.
+                </p>
+                <Button
+                    style={{width:'175px'}}
+                >
+                    Buy us a coffee
+                </Button>
+            </div>
             </div>
             <div className={classes.section}>
                 Section

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFont, FaTags, FaChartPie, FaGlobeAmericas, FaUsers, FaBoxOpen, FaHeart } from 'react-icons/fa'
+import { FaFont, FaTags, FaChartPie, FaGlobeAmericas, FaUsers, FaBoxOpen } from 'react-icons/fa'
 
 import classes from './Features.module.css'
 

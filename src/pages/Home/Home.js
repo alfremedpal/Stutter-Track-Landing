@@ -22,11 +22,11 @@ export default function Home() {
                 </div>
                 <MailInput />
             </div>
-            <div className={classes.section}>
+            <div className={classes.section} id="features">
                 <h2 className={classes.header}>Features</h2>
                 <Features />
             </div>
-            <div className={[classes.dotSection, "pattern-cross-dots-lg"].join(' ')}>
+            <div className={[classes.dotSection, "pattern-cross-dots-lg"].join(' ')} id="support">
             <div className={classes.title}>
                 <h1>Support us</h1>
                 <p>

@@ -12,7 +12,8 @@ export default function Navbar() {
     const menuItems = [
         {name: 'Features', link:'/#features'},
         {name: 'Roadmap', link:'/roadmap'},
-        {name: 'Support us', link:'/#support'}
+        {name: 'Support us', link:'/#support'},
+        {name: 'Contact', link: '/contact'}
     ]
 
     return (
@@ -27,7 +28,9 @@ export default function Navbar() {
             <div className={classes.menu}>
                 {
                     menuItems.map((item, i) => (
+                        <div>
                         <a key={i} className={classes.link} href={item.link} >{item.name}</a>
+                        </div>
                     ))
                 }
             </div>

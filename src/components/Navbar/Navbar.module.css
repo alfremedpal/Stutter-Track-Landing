@@ -71,17 +71,22 @@
 
     .main .menu {
         display: flex;
-        width: 20%;
+        width: 100%;
+        justify-content: right;
     }
 
-    .main .menu > a {
+    .main .menu div {
+        width: 100px;
+    }
+
+    .main .menu a {
         margin: 2%;
         text-decoration: none;
         color: #333;
         transition: all ease 0.3s;
     }
 
-    .main .menu > a:hover {
+    .main .menu a:hover {
         color: #ff803b;
     }
 

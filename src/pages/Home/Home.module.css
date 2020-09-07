@@ -41,6 +41,15 @@
     min-height: 50vh;
 }
 
+.section > p {
+    color: #555;
+}
+
+.section a {
+    text-decoration: none;
+    color: #ff803b;
+}
+
 .dotSection {
     box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.2);

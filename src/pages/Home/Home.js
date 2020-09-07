@@ -30,18 +30,22 @@ export default function Home() {
             <div className={classes.title}>
                 <h1>Support us</h1>
                 <p>
-                    Stutter track is a small project maintained by a very small group of people. <br />
-                    Help us keep going.
+                    Stutter track is a small project created and maintained by a single person. <br />
+                    Help me keep going.
                 </p>
                 <Button
                     style={{width:'175px'}}
                 >
-                    Buy us a coffee
+                    Buy me a coffee
                 </Button>
             </div>
             </div>
             <div className={classes.section}>
-                Section
+                <h2 className={classes.header}>Roadmap</h2>
+                <p>
+                    Check out the <a href="/roadmap" >roadmap</a> to see where we stand in development. 
+                    Features start rolling out October 2020.
+                </p>
             </div>
         </>
     )

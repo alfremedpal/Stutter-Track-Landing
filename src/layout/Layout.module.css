@@ -1,4 +1,8 @@
 .footer {
     min-height: 75px;
     background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
 }

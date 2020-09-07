@@ -14,7 +14,7 @@ export default function Layout() {
             <Route exact path="/" component={Home} />
             <Route exact path="/roadmap" component={Roadmap} />
             <footer className={classes.footer}>
-                Footer
+                Stutter Track 2020
             </footer>
         </>
     )

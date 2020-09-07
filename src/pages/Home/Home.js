@@ -27,18 +27,18 @@ export default function Home() {
                 <Features />
             </div>
             <div className={[classes.dotSection, "pattern-cross-dots-lg"].join(' ')} id="support">
-            <div className={classes.title}>
-                <h1>Support us</h1>
-                <p>
-                    Stutter track is a small project created and maintained by a single person. <br />
-                    Help me keep going.
-                </p>
-                <Button
-                    style={{width:'175px'}}
-                >
-                    Buy me a coffee
-                </Button>
-            </div>
+                <div className={classes.title}>
+                    <h1>Support us</h1>
+                    <p>
+                        Stutter track is a small project created and maintained by a single person. <br />
+                        Help me keep going.
+                    </p>
+                    <Button
+                        style={{width:'175px'}}
+                    >
+                        Buy me a coffee
+                    </Button>
+                </div>
             </div>
             <div className={classes.section}>
                 <h2 className={classes.header}>Roadmap</h2>

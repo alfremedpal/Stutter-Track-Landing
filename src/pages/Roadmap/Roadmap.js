@@ -13,7 +13,7 @@ export default function Roadmap() {
                     These are the <i>tentative</i> dates for releasing the core <a href="/#features">features</a> of the 
                     Stutter Track web app. They are all subject to change depending on various factors.
                     If you want to support us you can either 
-                    <a href="#"> buy me a coffee </a>
+                    <a href="/"> buy me a coffee </a>
                     or <a href="/contact">send me an email</a> to contribute to the project.
                 </p>
                 <p>

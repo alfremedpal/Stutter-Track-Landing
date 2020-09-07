@@ -1,0 +1,24 @@
+.main {
+    min-height: calc(100vh - 75px);
+    text-align: left;
+    padding: 5%;
+}
+
+.main h1 {
+    color: #ff803b;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.35em;
+    margin: 0;
+}
+
+.main p {
+    color: #555;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.main a {
+    text-decoration: none;
+    color: #ff803b;
+    font-weight: bold;
+}

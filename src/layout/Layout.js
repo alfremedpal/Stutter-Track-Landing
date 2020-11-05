@@ -16,7 +16,10 @@ export default function Layout() {
             <Route exact path="/roadmap" component={Roadmap} />
             <Route exact path="/contact" component={Contact} />
             <footer className={classes.footer}>
+                
                 Stutter Track 2020
+                <br />
+                {process.env.REACT_APP_BUILD_ENV}
             </footer>
         </>
     )

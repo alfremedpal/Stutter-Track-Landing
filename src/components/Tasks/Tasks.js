@@ -8,8 +8,8 @@ export default function Tasks() {
         {
             name: 'Sign Up & Sign In', 
             due: 'Late October 2020', 
-            desc:'Login and resgistration forms for early access users at first, general public eventually.',
-            tags: [{type: 'blue', name:'Working'}, {type: 'orange', name:'Beta'},],
+            desc:'Login and resgistration forms. Currently testing in different environments',
+            tags: [{type: 'green', name:'Done'}, {type: 'orange', name:'Beta'}, {type: 'yellow', name:'Testing'}],
         },
         {
             name: 'Word Track', 

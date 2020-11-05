@@ -13,11 +13,11 @@ export default function Roadmap() {
                     These are the <i>tentative</i> dates for releasing the core <a href="/#features">features</a> of the 
                     Stutter Track web app. They are all subject to change depending on various factors.
                     If you want to support us you can either 
-                    <a href="/"> buy me a coffee </a>
+                    <a href="https://www.buymeacoffee.com/amedpal" target="_blank" rel="noopener noreferrer"> buy me a coffee </a>
                     or <a href="/contact">send me an email</a> to contribute to the project.
                 </p>
                 <p>
-                    <i>Last update: September 10th 2020</i>
+                    <i>Last update: November 5th 2020</i>
                 </p>
                 <Tasks />
             </div>

@@ -33,6 +33,12 @@ export default function Navbar() {
                         </div>
                     ))
                 }
+                {
+                    process.env.REACT_APP_BUILD_ENV === 'prod'
+                    ? null
+                    :  <span style={{color:'lightgray'}}>{process.env.REACT_APP_BUILD_ENV}</span>
+                }
+                
             </div>
         </nav>
         <div className={menuOpen ? openClass : closedclass}>

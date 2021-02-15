@@ -28,18 +28,24 @@ export default function Navbar() {
             <div className={classes.menu}>
                 {
                     menuItems.map((item, i) => (
-                        <div>
-                        <a key={i} className={classes.link} href={item.link} >{item.name}</a>
+                        <div key={i}>
+                            <a className={classes.link} href={item.link} >{item.name}</a>
                         </div>
                     ))
                 }
+                {
+                    process.env.REACT_APP_BUILD_ENV === 'prod'
+                    ? null
+                    :  <span style={{color:'lightgray'}}>{process.env.REACT_APP_BUILD_ENV}</span>
+                }
+                
             </div>
         </nav>
         <div className={menuOpen ? openClass : closedclass}>
             {
                 menuItems.map((item, i) => (
-                    <div>
-                        <a key={i} className={classes.link} href={item.link} >{item.name}</a>
+                    <div key={i}>
+                        <a className={classes.link} href={item.link} >{item.name}</a>
                     </div>
                 ))
             }

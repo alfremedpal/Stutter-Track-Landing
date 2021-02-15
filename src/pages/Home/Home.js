@@ -2,7 +2,7 @@ import React from 'react'
 
 import Features from '../../components/Features/Features'
 import MailInput from '../../components/MailInput/MailInput'
-import Button from '../../components/Button/Button'
+import ButtonClass from '../../components/Button/Button.module.css'
 import classes from './Home.module.css'
 
 export default function Home() {
@@ -19,8 +19,11 @@ export default function Home() {
                         trouble with and the situation in which they 
                         occur.
                     </p>
+                    <p className={classes.small}>
+                        We are currently under development! If you want to get informed on either the beta or official
+                        launch date please consider <a href="/contact">contacting us</a>.
+                    </p>
                 </div>
-                <MailInput />
             </div>
             <div className={classes.section} id="features">
                 <h2 className={classes.header}>Features</h2>
@@ -33,11 +36,14 @@ export default function Home() {
                         Stutter track is a small project created and maintained by a single person. <br />
                         Help me keep going.
                     </p>
-                    <Button
+                    <a
+                        href="https://www.buymeacoffee.com/amedpal"
+                        target="_blank" rel="noopener noreferrer"
+                        className={ButtonClass.buttonLink}
                         style={{width:'175px'}}
                     >
                         Buy me a coffee
-                    </Button>
+                    </a>
                 </div>
             </div>
             <div className={classes.section}>

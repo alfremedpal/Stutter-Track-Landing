@@ -1,4 +1,5 @@
-.button {
+.button,
+.buttonLink {
     box-sizing: border-box;
     height: 45px;
     margin: 2px;
@@ -14,6 +15,14 @@
     transition: all ease 0.3s;
 }
 
-.button:hover {
+.button:hover,
+.buttonLink:hover {
     background-color: rgb(218, 122, 70);
+}
+
+.buttonLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }

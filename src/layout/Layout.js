@@ -16,7 +16,31 @@ export default function Layout() {
             <Route exact path="/roadmap" component={Roadmap} />
             <Route exact path="/contact" component={Contact} />
             <footer className={classes.footer}>
-                Stutter Track 2020
+                
+                <div>
+                    <a href="/#features" >Features</a>
+                </div>
+                
+                <div>
+                    <a href="/roadmap" >Roadmap</a>
+                </div>
+                
+                <div>
+                    <a 
+                        href="https://www.buymeacoffee.com/amedpal" 
+                        target="_blank" rel="noopener noreferrer" 
+                    >
+                        Support
+                    </a>
+                </div>
+
+                <div>
+                    <a href="/contact" >Contact</a>
+                </div>
+
+                <div>
+                    <a href="/opensource" >Open Source</a>
+                </div>
             </footer>
         </>
     )

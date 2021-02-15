@@ -17,7 +17,7 @@ export default function Roadmap() {
                     or <a href="/contact">send me an email</a> to contribute to the project.
                 </p>
                 <p>
-                    <i>Last update: November 5th 2020</i>
+                    <i>Last update: February 15th, 2021</i>
                 </p>
                 <Tasks />
             </div>

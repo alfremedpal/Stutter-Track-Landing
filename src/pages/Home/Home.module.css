@@ -32,6 +32,12 @@
     font-size: 0.95em;
 }
 
+.title .small {
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #777;
+}
+
 .spacer {
     /* background-color: blue; */
     flex-grow: 0.15;
@@ -45,7 +51,7 @@
     color: #555;
 }
 
-.section a {
+a {
     text-decoration: none;
     color: #ff803b;
 }

@@ -21,7 +21,7 @@ export default function Features() {
                 <div className={classes.title}>Tags</div>
                 <div className={classes.descp}>
                     Use custom tags to organize and filter your words depending
-                    on the context, mood, or anything you want
+                    on the context, mood, or anything you want <small>(coming soon)</small>
                 </div>
             </div>
             <div className={classes.feature}>
@@ -39,16 +39,16 @@ export default function Features() {
                 <div className={classes.title}>Global Data</div>
                 <div className={classes.descp}>
                     Discover what words other people like you have trouble with,
-                    filter by region or language
+                    filter by region or language <small>(coming soon)</small>
                 </div>
             </div>
-            <div className={classes.feature}>
+            {/* <div className={classes.feature}>
                 <div className={classes.icon}><FaUsers /></div>
                 <div className={classes.title}>Friends List</div>
                 <div className={classes.descp}>
                     Add friends to contrast your data with, share stats, tips, and more
                 </div>
-            </div>
+            </div> */}
             <div className={classes.feature}>
                 <div className={classes.icon}><FaBoxOpen /></div>
                 <div className={classes.title}>Open Source</div>

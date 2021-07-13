@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom'
 import Home from '../pages/Home/Home'
 import Roadmap from '../pages/Roadmap/Roadmap'
 import Contact from '../pages/Contact/Contact'
+import OpenSource from '../pages/OpenSource/OpenSource'
 import Navbar from '../components/Navbar/Navbar'
 import classes from './Layout.module.css'
 
@@ -15,6 +16,7 @@ export default function Layout() {
             <Route exact path="/" component={Home} />
             <Route exact path="/roadmap" component={Roadmap} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/opensource" component={OpenSource} />
             <footer className={classes.footer}>
                 
                 <div>

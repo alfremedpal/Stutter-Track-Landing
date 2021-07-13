@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Features from '../../components/Features/Features'
-import MailInput from '../../components/MailInput/MailInput'
 import ButtonClass from '../../components/Button/Button.module.css'
 import classes from './Home.module.css'
 
@@ -19,10 +18,14 @@ export default function Home() {
                         trouble with and the situation in which they 
                         occur.
                     </p>
-                    <p className={classes.small}>
-                        We are currently under development! If you want to get informed on either the beta or official
-                        launch date please consider <a href="/contact">contacting us</a>.
-                    </p>
+                    <a
+                        href="https://beta.stutter-track.com/signup"
+                        target="_blank" rel="noopener noreferrer"
+                        className={ButtonClass.buttonLink}
+                        style={{width:'175px'}}
+                    >
+                        Sign up now
+                    </a>
                 </div>
             </div>
             <div className={classes.section} id="features">
@@ -50,7 +53,6 @@ export default function Home() {
                 <h2 className={classes.header}>Roadmap</h2>
                 <p>
                     Check out the <a href="/roadmap" >roadmap</a> to see where we stand in development. 
-                    Features start rolling out October 2020.
                 </p>
             </div>
         </>
